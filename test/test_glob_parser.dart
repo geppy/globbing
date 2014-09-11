@@ -1,7 +1,9 @@
+library globbing.test_glob_parser;
+
 import "package:globbing/glob_parser.dart";
 import "package:unittest/unittest.dart";
 
-void main() {
+void defineTests() {
   testAsterisk();
   testAsterisks();
   testAsterisksSlash();

@@ -1,7 +1,9 @@
+library globbing.test_globbing;
+
 import "package:globbing/globbing.dart";
 import "package:unittest/unittest.dart";
 
-void main() {
+void defineTests() {
   new Glob("[!a]");
   test();
   testCharacterClass();

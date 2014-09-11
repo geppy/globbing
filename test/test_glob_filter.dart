@@ -1,10 +1,12 @@
+library globbing.test_glob_filter;
+
 import "dart:io";
 import "package:globbing/glob_filter.dart";
 import "package:globbing/glob_lister.dart";
 import "package:path/path.dart" as pathos;
 import "package:unittest/unittest.dart";
 
-void main() {
+void defineTests() {
   testExclude();
   testInclude();
 }
