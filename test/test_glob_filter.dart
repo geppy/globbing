@@ -7,7 +7,7 @@ import "package:path/path.dart" as pathos;
 import "package:unittest/unittest.dart";
 
 void defineTests() {
-  group("GlobFilter", () {
+  skip_group("GlobFilter", () {
     testExclude();
     testInclude();
   });
